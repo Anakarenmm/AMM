@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('PREPA_assets/fonts/MontserratRegular.eot');
+    src: url('PREPA_assets/fonts/MontserratRegular.eot') format('embedded-opentype'),
+         url('PREPA_assets/fonts/MontserratRegular.woff2') format('woff2'),
+         url('PREPA_assets/fonts/MontserratRegular.woff') format('woff'),
+         url('PREPA_assets/fonts/MontserratRegular.ttf') format('truetype'),
+         url('PREPA_assets/fonts/MontserratRegular.svg#MontserratRegular') format('svg');
+         font-weight: 400;
+         font-style: normal;
+         font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('PREPA_assets/fonts/MontserratExtraBold.eot');
+    src: url('PREPA_assets/fonts/MontserratExtraBold.eot') format('embedded-opentype'),
+         url('PREPA_assets/fonts/MontserratExtraBold.woff2') format('woff2'),
+         url('PREPA_assets/fonts/MontserratExtraBold.woff') format('woff'),
+         url('PREPA_assets/fonts/MontserratExtraBold.ttf') format('truetype'),
+         url('PREPA_assets/fonts/MontserratExtraBold.svg#MontserratExtraBold') format('svg');
+         font-weight: 800;
+         font-style: normal;
+         font-display: swap;
+}
+@font-face {
+    font-family: 'MontserratBlack';
+    src: url('PREPA_assets/fonts/MontserratBlack.eot');
+    src: url('PREPA_assets/fonts/MontserratBlack.eot') format('embedded-opentype'),
+         url('PREPA_assets/fonts/MontserratBlack.woff2') format('woff2'),
+         url('PREPA_assets/fonts/MontserratBlack.woff') format('woff'),
+         url('PREPA_assets/fonts/MontserratBlack.ttf') format('truetype'),
+         url('PREPA_assets/fonts/MontserratBlack.svg#MontserratBlack') format('svg');
+         font-weight: 900;
+         font-style: normal;
+         font-display: swap;
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('PREPA_assets/fonts/MyriadProRegular.eot');
+    src: url('PREPA_assets/fonts/MyriadProRegular.eot') format('embedded-opentype'),
+         url('PREPA_assets/fonts/MyriadProRegular.woff2') format('woff2'),
+         url('PREPA_assets/fonts/MyriadProRegular.woff') format('woff'),
+         url('PREPA_assets/fonts/MyriadProRegular.ttf') format('truetype'),
+         url('PREPA_assets/fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('PREPA_assets/fonts/MyriadProBold.eot');
+    src: url('PREPA_assets/fonts/MyriadProBold.eot') format('embedded-opentype'),
+         url('PREPA_assets/fonts/MyriadProBold.woff2') format('woff2'),
+         url('PREPA_assets/fonts/MyriadProBold.woff') format('woff'),
+         url('PREPA_assets/fonts/MyriadProBold.ttf') format('truetype'),
+         url('PREPA_assets/fonts/MyriadProBold.svg#MyriadProBold') format('svg');
+}
+body{
+    font-family: "MyriadProRegular", sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.container{
+    max-width: 1300px;
+}
+a{text-decoration: none;}
+h1,h2,h3,h4{
+    font-family: "MonserratBlack",sans-serif;
+}
+h1{font-size: 83px;
+font-weight: 900;}
+h2{font-size: 68px;
+    font-weight: 900;}
+h3{font-size: 50px;
+        font-weight: 900;}
+@media (max-width: 575.98px) {
+    h1{font-size: 60px;}
+    h2{font-size: 45px;}
+    h3{font-size: 35px;} 
+    .cta-main .heading-cta{font-size: 25px;} 
+    .accordion-container{padding-bottom: 30px !important;}
+    .footer-widget{
+    justify-content: center !important;
+    margin-bottom: 10px;        
+    }
+    .sub-footer .footer-widget{
+    justify-content:start !important;
+    }
+}
+
+.bg-green {background-color: var(--bs-primary);}
+.bg-rose {background-color: var(--bs-secondary);}
+.bg-blue {background-color:var(--bs-blue) ;}
+.bg-cyan {background-color:var(--bs-cyan);}
+.bg-dblue {background-color:var(--bs-dark-blue);}
+.bg-orange {background-color:var(--bs-orange);}
+.bg-magenta {background-color:var(--bs-magenta);}
+.col-xtra{width: 80.99999%;}
+.col-xtra-small{width: 18.999%;}
+.intro{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+nav .row{
+    height:23vh;
+}
+
+.rounded-full a {
+    padding:.5rem 1.5rem;
+    border-radius:50px;
+    font-family: 'MyriadProBold', sans-serif;
+}
+.rounded-full{background-color: transparent;}
+.rounded-full .rounded-big{padding: 1rem 1.6rem;}
+.logo-centered{
+    max-width: 540px;
+margin: -110px auto 0 ;
+padding-bottom: 50px;
+}
+.heading-highlight{
+    font-size: 52px;
+    font-family: 'MyriadProBold', sans-serif;
+    font-weight: 900;
+}
+.desc-inscripcion{
+    font-family: 'MyriadProRegular',sans-serif;
+    font-size: 32px;
+}
+.alertas-container{
+    min-height: 290px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 17vh;
+    padding-bottom: 17vh;}
+.heading-alertas{
+    font-size: 40px;
+    font-family: 'MyriadProBold', sans-serif;
+    line-height: 1.2;
+}
+
+.alertas{
+    padding-bottom: 200px;
+    padding-top:80px
+}
+.title-container-reduced{
+    padding:50px 10px;
+} 
+.icon img{width:91px;}
+.accordion-collapse-iris{display:none;}
+.title-container-reduced{max-width: 800px;margin:-100px auto 0;}
+.accordion-container{padding-bottom:90px;}
+.accordions-top{
+    padding-top: 80px;
+}
+.accordion-button-iris{
+    width: 100%;
+    background-color: transparent;
+    border:none;
+
+}
+.accordion-button-iris img{
+    width: 105px;
+}
+
+.accordion-desc{
+    font-size: 18px;}
+    .accordion-container:not(.show){
+        transition: height 0.5s ease; 
+    }
+    .title-box{
+        padding:5px 0;
+    }
+  .title-box h4{
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1;
+    }  
+ .pointer{
+    margin-bottom: 30px;
+ }
+ .form-check-input[type="radio"] {
+    background-color: white; 
+}
+ .cta-main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+ }
+.heading-cta {
+    font-size: 40px;
+    font-family: 'MyriadProBold', sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+    .mitec img{width: 40px;}
+    .whatsapp img{width: 42px;}
+    .telefono img{width: 34px;}
+ 
+    .footer-widget{
+        font-size: 21px;
+        font-family: 'MyriadProRegular', sans-serif;
+    }
+    .icon-widget-subfooter{margin-right: 15px;}
+ .atencion img{
+    width: 58px;
+ }   
+ .email img{
+    width: 38px;
+ }   
+ .chat img{
+    width: 35px;
+ }   
+ .footer{
+    padding-top: 80px;
+    padding-bottom: 120px;
+ }
+ .footer h2{
+    font-size: 38px;
+  }
+  .subheading{
+    font-size: 38px;
+    font-family: 'MonserratRegular', sans-serif;
+  }
+
+.form-check{padding-left: 0;}
+.form-check-input[type="checkbox"] {
+    display: none; 
+}
+
+
+.form-check-label::before {
+    content: '';
+    display: inline-block;
+    width: 25px; 
+    height: 25px; 
+    border-radius: 50%; 
+    border: 2px solid #ccc;
+    background-color: white;
+    vertical-align: middle;
+    cursor: pointer; 
+    margin-right: 10px;
+}
+
+/* Apply a checkmark when checkbox is checked */
+.form-check-input:checked + .form-check-label::before {
+    content: ''; 
+    text-align: center;
+    line-height: 18px; 
+    color: #fff; 
+    background-color: #007bff; 
+}
+
